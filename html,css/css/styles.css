@@ -1,0 +1,106 @@
+/* Add fonts */
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/DMSans-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('../fonts/DMSans-Bold.ttf') format('woff2');
+}
+
+/* Header */
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+
+}
+.logo img {
+    width: 100%;
+}
+.phone-wraper {
+    display: flex;
+}
+.phone-text a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.phone-icon img {
+    width: 15.97px;
+    height: 16px;
+}
+.phone-icon {
+    margin-right: 8px;
+}
+.contact-button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    text-align: center;
+}
+.contact-button a {
+    text-decoration: none;
+    color: #041C2C;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* Menu */
+.main-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.main-menu li {
+    display: inline-block;
+    margin-right: 51px;
+}
+ul.main-menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+ul.main-menu li:last-child {
+    margin-right: 0;
+}
+.center-items {
+    display: flex;
+    /* Canh giua tren duoi */
+    align-items: center;
+    /* Canh giua trai phai */
+    justify-content: center;
+    /* canh giua van ban  */
+    text-align: center;
+}
+.page-title {
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.hero{
+    background-image: url('../images/bg-hearder.png');
+    min-height: 500px;
+}
